@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header {
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4vh;
+        flex: 1;
+        background-color: #313131;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: 100;
+        padding: 2vh;
+    }
+    
+
+}

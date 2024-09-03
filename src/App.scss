@@ -1,0 +1,24 @@
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  align-items: flex-start;
+ margin: 3vh;
+ gap: 5vh;
+
+
+}
+.Card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5vh;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+
+}
+
