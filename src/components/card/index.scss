@@ -14,27 +14,12 @@
         font-size: 14px;
         text-align: center;
         border-radius: 12px 12px 0px 0px;
+        transition: 1s;
+       
+
 
     }
 
-    .rosa {
-        background-color: $rosa;
-    }
-
-    .ciano {
-            background-color: $ciano;
-    }
-
-    .amarelo {
-            background-color: $amarelo;
-    }
-
-    .cinza {
-            background-color: $cinza;
-    }
-    .verde {
-        background-color: $verde;
-    }
 
     .card-conteudo {
         padding: 8px;
@@ -65,6 +50,13 @@
         border-radius: 12px;
     
 
+}
+
+transition: 0.5s;
+
+&:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 }

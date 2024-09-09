@@ -17,8 +17,9 @@ function App() {
        - Componentes
        `,
       'data': '26/agosto',
-      'cor': 'verde',
-      'trabalho': false
+      'trabalho': false,
+      'fim_bimestre': false,
+      'status': 'Completo'
     },
 
     {
@@ -30,7 +31,9 @@ function App() {
       `,
       'data': '02/Setembro',
       'cor': 'rosa',
-      'trabalho': false
+      'trabalho': false,
+      'fim_bimestre': false,
+      'status': 'Em andamento'
     },
 
     {
@@ -42,7 +45,9 @@ function App() {
     `,
       'data': '09/Setembro',
       'cor': 'cinza',
-      'trabalho': true
+      'trabalho': true,
+      'fim_bimestre': false,
+      'status': 'Criado'
     },
     {
       'titulo': 'Prova prática e teórica',
@@ -58,17 +63,20 @@ function App() {
     `,
       'data': '09/Setembro',
       'cor': 'cinza',
-      'trabalho': false
+      'trabalho': false,
+      'fim_bimestre': false,
+      'status': 'Evento'
     },
     {
       'titulo': 'Fim do Bimestre',
       'texto': '',
       'Listas':
         ``,
-      'data': '',
+      'data': null,
       'cor': '',
       'trabalho': false,
-      'fim_bimestre': true
+      'fim_bimestre': true,
+      'status': 'Criado'
     }
   ]
   return (
@@ -94,6 +102,7 @@ function App() {
                 data={item.data}
                 cor={item.cor}
                 trabalho={item.trabalho}
+                status={item.status}
               />
             </div>
 
