@@ -23,7 +23,7 @@ export default function Card ({titulo,texto, Listas, data,  trabalho, fim_bimest
 
          case 'Evento': 
             corPrimaria = '#F6E448'
-            corSegundaria = '#F2F2F2'
+            corSegundaria = '#FAF4C1'
             break;
 
     
@@ -63,7 +63,7 @@ export default function Card ({titulo,texto, Listas, data,  trabalho, fim_bimest
             
                 <main className='card' style={{ backgroundColor: corSegundaria}}>
                
-               <h1 >{texto}</h1>
+                <h1>{titulo}</h1>
                 
                 </main>
 
